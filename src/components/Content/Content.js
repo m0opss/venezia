@@ -3,7 +3,7 @@ import React from 'react';
 
 const Content = () => (
     <>
-        <div className='content-wrapper'>
+        <div className='content-container'>
             Content
         </div>  
     </>

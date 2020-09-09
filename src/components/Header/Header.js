@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => (
     <>
-        <div className='header-wrapper'>
+        <div className='header-container'>
             Header
         </div>
     </>
