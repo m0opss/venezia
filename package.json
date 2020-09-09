@@ -1,5 +1,5 @@
 {
-    "name": "VeneziaStones",
+    "name": "veneziastones",
     "version": "1.0.0",
     "description": "VeneziaStones online catalog",
     "main": "src/index.js",
