@@ -23,7 +23,9 @@ module.exports = [
     },
     {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        use: ['url-loader?limit=10000', 'img-loader']
+        // use: ['url-loader?limit=10000', 'img-loader']
+        // use: 'file-loader?name=/src/images/[name].[ext]'
+        loader: "url-loader?name=app/images/[name].[ext]"
     },
     {
         test: /\.css$/,

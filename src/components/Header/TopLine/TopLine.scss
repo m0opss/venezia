@@ -1,0 +1,64 @@
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.top-line__logo {
+  flex: 1.5;
+  margin: 0 10px;
+}
+
+.top-line__social{
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  margin: 0 10px;
+  justify-content: space-between;
+}
+.top-line__phone{
+  display: flex;
+  justify-content: space-around;
+}
+.top-line__soc-icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-line__city {
+  display: flex;
+  flex: 1;
+  margin: 0 10px;
+  align-items: center;
+  &:hover {
+    color: #c98505;
+    cursor: pointer;
+  }
+}
+
+.top-line__search {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.top-line__contacts {
+  margin: 0 10px;
+  flex: 0.5;
+  color: #000000;
+  padding: 10px;
+  background-color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #c98505;
+  }
+  &.-active {
+    color: #000;
+    background-color: #DAC79F;
+  }
+}
+
+.top-line__menu {
+  flex: 1;
+  margin: 0 10px;
+}
