@@ -1,0 +1,23 @@
+
+.top-line__basket {
+  flex: .4;
+  margin: 0 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #DAC79F;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.top-line__basket-icon {
+  flex: 1;
+}
+.top-line__basket-counter {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #DAC79F;
+  color: #c98505;
+}
